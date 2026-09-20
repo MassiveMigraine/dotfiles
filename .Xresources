@@ -1,0 +1,42 @@
+URxvt*title:          bigcity
+
+!Black
+URxvt*color0:  #2E3436
+URxvt*color8:  #555753
+
+!Red
+URxvt*color1:  #CC0000
+URxvt*color9:  #EF2929
+
+!Green
+URxvt*color2:  #4E9A06
+URxvt*color10: #8AE234
+
+!Orange
+URxvt*color3:  #C4A000
+URxvt*color11: #FCE94F
+
+!Dark Blue
+URxvt*color4:  #3465A4
+Rxvt*color12: #729FCF
+
+!Purple
+URxvt*color5:  #75507B
+URxvt*color13: #AB7FA8
+
+!Cyan / Light Blue
+URxvt*color6:  #06989A
+URxvt*color14: #34E2E2
+
+!White
+URxvt*color7:  #D3D7CF
+URxvt*color15: #EEEEEC
+
+URxvt*background: #2E3436
+URxvt*scrollBar: false
+URxvt*foreground: white 
+URxvt*font: xft:DejaVuSansMono:pixelsize=14
+URxvt*depth: 24
+URxvt*letterSpace: 1
+URxvt*savelin: 2048
+URxvt*geometry: 120x40
