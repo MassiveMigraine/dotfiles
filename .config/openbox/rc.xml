@@ -181,7 +181,12 @@
     </keybind>
     <keybind key="A-F">
       <action name="Execute">
-        <command>firefox</command>
+        <command>firefox -P "default"</command>
+      </action>
+    </keybind>
+   <keybind key="A-S-F">
+      <action name="Execute">
+        <command>firefox -P "bigcity-alt"</command>
       </action>
     </keybind>
     <keybind key="A-P">
@@ -197,6 +202,11 @@
     <keybind key="A-C">
       <action name="Execute">
         <command>code</command>
+      </action>
+    </keybind>
+    <keybind key="W-L">
+      <action name="Execute">
+        <command>dm-tool lock</command>
       </action>
     </keybind>
     <!-- Custom Window Snapping -->
