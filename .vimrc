@@ -34,3 +34,4 @@ set title
 "\}
 
 set t_Co=256
+set belloff=all

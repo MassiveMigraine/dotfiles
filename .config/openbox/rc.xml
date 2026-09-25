@@ -7,7 +7,7 @@
   <focus>
     <focusNew>yes</focusNew>
     <!-- always try to focus new windows when they appear. other rules do apply -->
-    <followMouse>yes</followMouse>
+    <followMouse>no</followMouse>
     <!-- move focus to a window when you move the mouse into it -->
     <focusLast>yes</focusLast>
     <!-- focus the last used window when changing desktops, instead of the one
@@ -189,11 +189,17 @@
         <command>firefox -P "bigcity-alt"</command>
       </action>
     </keybind>
+    <keybind key="A-T">
+      <action name="Execute">
+        <command>remmina -c /home/ghost/.local/share/remmina/group_rdp_thunderbird_thunderbird.remmina </command>
+      </action>
+    </keybind>
     <keybind key="A-P">
       <action name="Execute">
         <command>keepassxc</command>
       </action>
     </keybind>
+
     <keybind key="A-O">
       <action name="Execute">
         <command>rofi -show drun</command>
