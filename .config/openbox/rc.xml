@@ -189,20 +189,19 @@
         <command>firefox -P "bigcity-alt"</command>
       </action>
     </keybind>
-    <keybind key="A-T">
-      <action name="Execute">
-        <command>remmina -c /home/ghost/.local/share/remmina/group_rdp_thunderbird_thunderbird.remmina </command>
-      </action>
-    </keybind>
     <keybind key="A-P">
       <action name="Execute">
         <command>keepassxc</command>
       </action>
     </keybind>
-
     <keybind key="A-O">
       <action name="Execute">
         <command>rofi -show drun</command>
+      </action>
+    </keybind>
+    <keybind key="A-R">
+      <action name="Execute">
+        <command>openbox --reconfigure</command>
       </action>
     </keybind>
     <keybind key="A-C">
@@ -210,6 +209,7 @@
         <command>code</command>
       </action>
     </keybind>
+
     <keybind key="W-L">
       <action name="Execute">
         <command>dm-tool lock</command>

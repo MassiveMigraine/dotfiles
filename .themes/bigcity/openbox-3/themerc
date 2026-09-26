@@ -35,8 +35,12 @@ window.active.grip.bg.border.color: #2e3436
 
 window.active.button.unpressed.bg: Flat Solid
 window.active.button.unpressed.bg.color: #ede9e3
-window.active.button.unpressed.bg.border.color: #36536f
+window.active.button.unpressed.bg.border.color: #ede9e3
 window.active.button.unpressed.image.color: #000000
+
+window.active.button.toggled.unpressed.bg: Flat Solid
+window.active.button.toggled.unpressed.bg.color: #ede9e3
+window.active.button.toggled.unpressed.image.color: #000000
 
 ### Window inactive
 window.inactive.border.color: #2e3436
@@ -45,7 +49,8 @@ window.inactive.title.bg.color: #2e3436
 window.inactive.title.separator.color: #4e4841
 
 window.inactive.label.bg: Parentrelative
-window.inactive.label.text.color: #d6d3d3
+# window.inactive.label.text.color: #d6d3d3
+ window.inactive.label.text.color: #f80909
 
 window.inactive.handle.bg: Flat Solid
 window.inactive.handle.bg.color: #2e3436

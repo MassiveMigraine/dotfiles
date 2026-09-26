@@ -1,6 +1,6 @@
 ":set nocompatible
 " Plugin control with vim-plug
-call plug#begin('~/.nix-config/home/dotfiles/.vim/plugged')
+call plug#begin('~/.vim/plugged')
   Plug 'sheerun/vim-polyglot'
   Plug 'dense-analysis/ale'
   Plug 'ap/vim-css-color'
@@ -13,10 +13,10 @@ set smartindent
 set tabstop=2
 set shiftwidth=2
 set expandtab
-set number
+"set number
 
 "Enable Clipboard
-"set clipboard=unnamedplus
+set clipboard=unnamedplus
 
 " Tilebar at the top
 let s:host = split(hostname(), '\.')[0]
