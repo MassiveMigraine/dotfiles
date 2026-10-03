@@ -39,4 +39,4 @@ URxvt*font: xft:DejaVuSansMono:pixelsize=14
 URxvt*depth: 24
 URxvt*letterSpace: 1
 URxvt*savelin: 2048
-URxvt*geometry: 120x40
+URxvt*geometry: 118x40

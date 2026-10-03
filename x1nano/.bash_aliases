@@ -1,9 +1,12 @@
 # nix stuff
 alias x1switch='sudo nixos-rebuild switch --flake ~/.nix-config/.#x1nano'
-alias ond='cd ~/.nix-config/'
-alias odf='cd ~/.dotfiles/'
+
+#alias ond='cd ~/.nix-config/'
+#alias odf='cd ~/.dotfiles/'
 
 alias ll='ls -alF'
+
+# python stuff
 alias act='source venv/bin/activate'
 
 # Notes
