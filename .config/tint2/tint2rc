@@ -134,7 +134,7 @@ systray_padding = 0 4 2
 systray_background_id = 0
 systray_sort = ascending
 systray_icon_size = 24
-systray_icon_asb = 100 0 0
+systray_icon_asb = 100 0 100
 systray_monitor = 1
 systray_name_filter = 
 
@@ -150,8 +150,8 @@ launcher_icon_theme_override = 0
 startup_notifications = 1
 launcher_tooltip = 1
 #launcher_item_app = pcmanfm.desktop
-launcher_item_app = firefox.desktop
-launcher_item_app = org.remmina.Remmina.desktop
+#launcher_item_app = firefox.desktop
+#launcher_item_app = org.remmina.Remmina.desktop
 
 #-------------------------------------
 # Clock

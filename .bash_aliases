@@ -1,9 +1,13 @@
 # nix stuff
 alias x1switch='sudo nixos-rebuild switch --flake ~/.nix-config/.#x1nano'
-alias nd='cd ~/.nix-config/'
+alias ond='cd ~/.nix-config/'
+alias odf='cd ~/.dotfiles/'
 
 alias ll='ls -alF'
 alias act='source venv/bin/activate'
+
+# Notes
+alias sl="vim ~/Nextcloud/Notes/Shopping\ List.md"
 
 # enable color support of ls and also add handy aliases
 if command -v dircolors >/dev/null 2>&1; then
