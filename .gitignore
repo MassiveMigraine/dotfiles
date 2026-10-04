@@ -1,2 +1,3 @@
+all-machines/.vim/.netrwhist
 all-machines/.vim/plugged
-.swp
+*.swp
