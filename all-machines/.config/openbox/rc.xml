@@ -214,6 +214,11 @@
         <command>sh -c 'remmina -c "$HOME/.local/share/remmina/group_rdp_thunderbird_thunderbird.remmina"'</command>
       </action>
     </keybind>
+    <keybind key="A-S">
+      <action name="Execute">
+        <command>spotify</command>
+      </action>
+    </keybind>
     <keybind key="W-L">
       <action name="Execute">
         <command>dm-tool lock</command>
