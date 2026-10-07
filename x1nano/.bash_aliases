@@ -1,5 +1,6 @@
 # nix stuff
 alias x1switch='sudo nixos-rebuild switch --flake ~/.nix-config/.#x1nano'
+alias chrome='nix-shell ~/tmp/google-chrome/shell.nix --run google-chrome-stable'
 
 #alias ond='cd ~/.nix-config/'
 #alias odf='cd ~/.dotfiles/'

@@ -196,7 +196,7 @@
     </keybind>
     <keybind key="A-C">
       <action name="Execute">
-        <command>code</command>
+        <command>bash -lc 'nix-shell ~/tmp/google-chrome/shell.nix --run "google-chrome-stable --no-default-browser-check"'</command>
       </action>
     </keybind>
     <keybind key="A-F">
