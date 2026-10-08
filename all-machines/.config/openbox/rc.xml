@@ -235,6 +235,19 @@
       </action>
     </keybind>
 
+    <keybind key="A-S-R">
+      <action name="Execute">
+        <command>reboot</command>
+      </action>
+    </keybind>
+ 
+
+    <keybind key="A-S-S">
+      <action name="Execute">
+        <command>poweroff</command>
+      </action>
+    </keybind>
+ 
     <!-- Custom Window Snapping -->
     <keybind key="W-Left">
       <action name="UnmaximizeFull"/>
